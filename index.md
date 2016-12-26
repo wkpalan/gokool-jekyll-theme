@@ -4,6 +4,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-# gokool
-
-A jekyll theme for the github page for my personal site
+<section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+ <div class="page-content">This Kokulapalan Wimalanathan’s homepage. Please look at some of the pages which contain more information about my Education and Research so far.</div>
+</section>

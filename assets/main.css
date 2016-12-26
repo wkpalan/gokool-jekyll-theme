@@ -1,0 +1,56 @@
+.banner{
+  /*background-image: url("/assets/header.png");*/
+  background: rgb(96,125,139);
+  height:80px;
+  width:100%;
+}
+.main-title{
+  top:20;
+  margin:20px 20px;
+  font-size:32pt;
+  font-weight: bolder;
+  line-height: normal;
+}
+.sub-title{
+  font-size:24px;
+  padding-left: 75px;
+  font-style: italic;
+}
+
+@media (max-width: 512px)  and (min-resolution: 1.5dppx),
+       (max-width: 1024px) and (max-resolution: 1.5dppx) {
+         .main-title{
+           font-size: 24pt;
+         }
+         .sub-title{
+           font-style: italic;
+           font-size: 12pt;
+         }
+         .banner{
+           height:60px;
+           width:100%;
+         }
+       }
+
+
+.demo-layout-transparent .mdl-layout__header{
+  background: url('/assets/header.png') center / cover;
+}
+.mdl-layout__header--transparent{
+  height:100px;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: black;
+}
+
+.mdl-navigation a {
+  color: black;
+}
+
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+  padding-right: 0;
+
+}
